@@ -1,0 +1,33 @@
+{
+  "name": "big-company-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonesTheDude/Big-Company-Database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonesTheDude/Big-Company-Database/issues"
+  },
+  "homepage": "https://github.com/TonesTheDude/Big-Company-Database#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "inquirer": "8.2.4",
+    "pg": "^8.13.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/pg": "^8.11.11",
+    "typescript": "^5.8.2"
+  }
+}
